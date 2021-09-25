@@ -1,4 +1,4 @@
-<form action="post.php" method="post">
+<form action="postYget.php" method="post">
 	nom: <input name="nombre"><br>
 	sexo: 
 		m <input type="radio"name="sexo" value="masc">
@@ -19,3 +19,13 @@ echo "<br>";
 echo "Superficie: " . $_GET['b'] * $_GET['h'];
 
 ?>
+<form action="postYget.php" method="get">
+	nom: <input name="nombre"><br>
+	sexo: 
+		m <input type="radio"name="sexo" value="masc">
+		f <input type="radio"name="sexo" value="fem">
+	<br>	
+	dni: <input name="dni"><br>
+	pass: <input name="clave" type="password"><br>
+	<input type="submit">
+</form>
