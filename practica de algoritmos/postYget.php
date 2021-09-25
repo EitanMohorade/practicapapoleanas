@@ -1,4 +1,4 @@
-<form action="post.php" method="post">
+<form action="post.php" method="get">
 	nom: <input name="nombre"><br>
 	sexo: 
 		m <input type="radio"name="sexo" value="masc">
